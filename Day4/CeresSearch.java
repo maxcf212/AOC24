@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class CeresSearch
 {
     public static void main(String[] args) {
-        ArrayList<ArrayList<Character>> grid = new ArrayList<ArrayList<Character>>(); // 2d arraylist, each char is its own string
+        ArrayList<ArrayList<Character>> grid = new ArrayList<ArrayList<Character>>(); // 2d arraylist
         
         // read letters file into 2d array
         try (Scanner scanner = new Scanner(Paths.get("Day4/letters.txt"))) {
